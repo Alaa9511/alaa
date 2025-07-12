@@ -1,0 +1,76 @@
+Tasks required to develop the Lavish product link analysis tool
+Please carefully implement the following modifications to the current project in Replit:
+
+🟢 First: SEO product description (Meta Description)
+A final product description should be generated that does not exceed 160 characters.
+
+It should consist of:
+
+A real brief description of the product (taken from the link page).
+
+Ready-made marketing words such as:
+
+"Add to cart", "discount", "shopping", "offers", "favorable prices", "cheapest perfumes"...
+
+Technical words associated with perfumes such as:
+
+"Two smells", "high persistence", "oriental fragrance", "niche", "EDP", "top notes"...
+
+An example of the desired result:
+
+Copy
+Edit
+V Orchid perfume by lavish-two scents and a lasting hold. Shop now with discounts and Special Offers, add to the basket and enjoy a high quality oriental fragrance.
+ثانيا second: a reanalysis button for the same link
+A custom button should be added as:
+🔁 Reanalysis of the product
+
+When pressed, the application regenerates the results with new words each time but they remain related to the content of the product itself.
+
+This is done by randomly shuffling the suggested words from the list for each new attempt.
+
+🏷️ Third: product title SEO Title
+You must generate a professional title for the product page (SEO Title) and include:
+
+The real product name is as it is on the link page.
+
+A clear marketing description such as:
+"Barry perfume | from lavish | high quality-long lasting"
+
+Preferably the presence of 3 elements:
+
+Product name
+
+Its source (from lavish)
+
+Attractive description (quality-stability-luxury...)
+
+🧩 Fourth: using a huge list of keywords
+Add the following words to the system to randomly select a number of them in each analysis, depending on their type:
+
+1. Words related to the fragrance itself:
+Copy
+Edit
+Oriental fragrance, niche fragrance, women's fragrance, men's fragrance, luxury fragrance, floral fragrance, fruit fragrance, strong fragrance, high stability, top notes, luxurious composition, lasting aroma, EDP concentration
+2. Marketing words:
+Copy
+Edit
+Add to cart, shop now, discounts, offers, favorable Prices, Free Shipping, Saudi store, original perfumes, discount today, cheapest perfumes
+3. Local keywords:
+Copy
+Edit
+Perfume in Riyadh, perfume shop in Saudi Arabia, Jeddah perfumes, instant delivery, luxury perfume in Saudi Arabia, niche online perfume shop
+4. Words related to comparing or replacing perfumes:
+Copy
+Edit
+An alternative perfume, inspired by, like Baccarat Rouge, the same smell of Dior Sauvage, similar to Tom Ford, a perfume with a niche quality and a lower price
+Each new analysis should select random unrepeatable words from these lists and integrate them into the description and title.
+
+✅ Fifth: improve the user interface
+The “Copy " button for each section should always have the same name: Copy
+
+Add a "إعادة re-search" button after the results appear.
+
+Show the product image automatically (from og:image or first <img>).
+
+Use an easy and tidy interface as previously equipped.
